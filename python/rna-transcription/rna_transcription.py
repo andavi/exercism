@@ -1,6 +1,6 @@
 def to_rna(dna_strand):
-    map = {'A': 'U',
+    table = {'A': 'U',
            'C': 'G',
            'G': 'C',
            'T': 'A'}
-    return ''.join([map[c] for c in dna_strand])
+    return ''.join([table[c] for c in dna_strand])
